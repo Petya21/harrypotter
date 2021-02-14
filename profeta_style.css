@@ -1,0 +1,371 @@
+body{
+    background-color: rgb(216, 209, 183);
+}
+.elso{
+    border: 5px solid rgb(0, 0, 0);
+    width: 1390px;
+    height: 845px;
+    display: grid;
+    grid-template-columns: 340px 25px 105px 240px 315px 25px 340px;
+    grid-template-rows: 135px 300px 40px 190px 135px 45px;
+}
+.masodik{
+    border: 5px solid rgb(0, 0, 0);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.harmadik{
+  float: left;
+  clear: both;
+  width: 80px;
+  margin-top: 0px;
+}
+.negyedik{
+    font-family: 'M+ 1mn bold';
+    line-height: 40%;
+    margin-top: 28px;
+    margin-right: 95px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-variant: small-caps;
+    font-size: 290%;
+    letter-spacing: 6.3px;
+  }
+.otodik{
+    font-family: 'M+ 1mn bold';
+    line-height: 60%;
+    margin-top: 0px;
+    
+    margin-right: 0px;
+    font-variant: small-caps;
+    font-size: 240%;
+    letter-spacing: 0.8px;
+}
+.hatodik{
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.hetedik{
+  float: right;
+ clear: both;
+ width: 90px;
+ margin-top: 30px;
+ margin-right: 5px;
+}
+.nyolcadik{
+    border: 5px solid rgb(0, 0, 0);
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.kilencedik{
+  font-family: 'Talpas';
+  font-size: 240%;
+  line-height: 110%;
+  margin-top: 0px;
+  text-align: center;
+}
+.tizedik{
+  letter-spacing: 4px;
+}
+.tizenegy{
+  background-color: rgb(0, 0, 0);
+  color: rgb(216, 209, 183);
+  font-size: 41.5px;
+}
+.tizenketto{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-color: rgb(0, 0, 0);
+  color: rgb(216, 209, 183);
+}
+.tizenharom{
+  font-family: Hastings Bold;
+  font-size: 235px;
+  font-variant: small-caps;
+  margin-top: 0px;
+  line-height: 35%;
+  margin-left: 7px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.tizennegy{
+  font-family: Hastings Bold;
+  font-size: 205px;
+  font-variant: small-caps;
+  margin-top: 0px;
+  line-height: 115%;
+  margin-left: 7px;
+}
+.tizenot{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.tizenhat{
+  float: right;
+  clear: both;
+}
+.tizenhet{
+  font-family: po;
+  font-size: 77px;
+  text-align: justify;
+  line-height: 76px;
+  margin-top: 0px;
+}
+.tizennyolc{
+  letter-spacing: 8px;
+}
+.tizenkilenc{
+  letter-spacing: 1px;
+}
+.husz{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.huszonegy{
+  width: 120px;
+  margin-top: 5px;
+}
+.huszonketto{
+  float: right;
+  clear: both;
+  font-family: anton;
+  font-variant: small-caps;
+  letter-spacing: -4px;
+  font-size: 55px;
+  margin-top: 0px;
+  margin-left: 1px;
+  margin-bottom: 0%;
+  margin-right: 90px;
+  line-height: 67px;
+}
+.huszonharom{
+  width: 50px;
+}
+.huszonnegy{
+  grid-column-end: 8;
+  grid-row-start: 2;
+}
+.huszonot{
+  margin-left: 60px;
+  float: right;
+  clear: both;
+  margin-top: 75px;
+  text-align: justify;
+  margin-right: 90px;
+  margin-bottom: 0%;
+}
+#huszonhat{
+  margin-left: 10px;
+  margin-top: 0%;
+  margin-right: 90px;
+  text-align: justify;
+}
+.huszonhet{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+.huszonnyolc{
+  text-align: justify;
+  margin-top: 0%;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.huszonkilenc{
+  font-family: 'Talpas';
+  font-variant: small-caps;
+  font-size: 145%;
+  margin-top: 0px;
+  line-height: 10px;
+}
+.harminc{
+  font-family: 'M+ 1mn bold';
+  font-size: 240%;
+  line-height: 55%;
+}
+.harmincegy{
+  font-family: Hastings Bold;
+  font-size: 45px;
+  font-variant: small-caps;
+  margin-top: 0px;
+  line-height: 50%;
+  letter-spacing: 4.5px;
+}
+#harmincketto{
+  font-size: 40px;
+  font-family: 'dec';
+  margin-top: 20px;
+  margin-bottom: 0%;
+  float: right;
+  clear: both;
+  margin-right: 7px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.harmincharom{
+  border-top: 3px solid rgb(0, 0, 0);
+  font-family: 'dec';
+  font-size: 60px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 7px;
+  margin-right: 7px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.harmincnegy{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.harmincot{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+.harminchat{
+  font-family: 'New Comic Title';
+  float: right;
+  clear: both;
+}
+.harmincnyolc{
+  font-family: 'Warownia Black Narrow';
+}
+.harminckilenc{
+  font-family: 'Magic School Two';
+}
+.negyven{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 2;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+.negyvennegy{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  height: max-content;
+  width: max-content;
+}
+.negyvenketto{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.negyvenharom{
+  height: 131px;
+}
+.negyvennegy{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  height: max-content;
+  width: max-content;
+}
+.negyvenot{
+  border: 5px solid rgb(0, 0, 0);
+  grid-column-start: 7;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+.naptar {
+margin: 0px;
+ padding:  0px;   
+ }
+.naptar li {
+font-family: 'Talpas';  
+ display: inline-block;
+width: 47px;
+text-align: center;
+ }
+.naptarszamok {
+padding:  0px;
+margin: 0px;
+}
+.naptarszamok li {
+font-family: 'Talpas';
+list-style-type: none;
+display: inline-block;
+width: 37px;
+text-align: center;
+padding: 5px;
+}
+.negyvenhat{
+width: 75%;
+}
+@font-face {
+  font-family: 'Talpas';
+  src: url('betustilus/StalinistOne-Regular.ttf');
+}
+@font-face {
+  font-family: 'dec';
+  src: url('betustilus/Vipashriftina150.ttf');
+}
+@font-face {
+  font-family: 'szls';
+  src: url('betustilus/RussoOne-Regular.ttf');
+}
+@font-face {
+  font-family: 'anton';
+  src: url('betustilus/Anton-Regular.ttf');
+}     
+ @font-face {
+font-family: 'Magic School Two';
+src: url('betustilus/MagicSchoolTwo.ttf');
+}
+ @font-face {
+font-family: 'Warownia Black Narrow';
+src: url('betustilus/WarowniaBlkNrw.ttf');
+}
+@font-face {
+font-family: 'New Comic Title';
+src: url('betustilus/newcomictitle.ttf');
+}
+@font-face {
+font-family: 'M+ 1mn bold';
+src: url('betustilus/mplus-1mn-bold.ttf');
+}
+@font-face {
+font-family: 'Wowsers Italic';
+src: url('betustilus/Wowsers\ Italic.ttf');
+}
+@font-face {
+font-family: 'Superstar M54';
+src: url('betustilus/Superstar\ M54.ttf');
+}
+@font-face {
+font-family: 'Hastings Bold';
+src: url('betustilus/Hastings\ Bold.ttf');
+}
+@font-face {
+font-family: 'po';
+src: url('betustilus/American\ Purpose\ STRIPE\ 1\ Normal.otf');
+}
